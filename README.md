@@ -39,7 +39,10 @@ width - This is the recursive height of the search.
 
 addEdge(,20,0) will return 2 dataframes. One with the 'connections' and one with the details for every artist.
 
-|----|-------------|--------------------|
+connections -
+
+| index | Source | Target |
+| --- | --- | --- |
 |  0 | Frank Ocean | Tyler, The Creator |
 |  1 | Frank Ocean | Earl Sweatshirt    |
 |  2 | Frank Ocean | Kevin Abstract     |
@@ -61,6 +64,30 @@ addEdge(,20,0) will return 2 dataframes. One with the 'connections' and one with
 | 18 | Frank Ocean | dvsn               |
 | 19 | Frank Ocean | Kali Uchis         |
 
+edges-
+|    | name               |   followers | genres                                                                                                                                                            |   popularity | uri                                   |
+|----|--------------------|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|---------------------------------------|
+|  0 | SZA                |     3345108 | ['pop', 'pop rap', 'rap']                                                                                                                                         |           83 | spotify:artist:7tYKF4w9nC0nq9CsPZTHyP |
+|  1 | Frank Ocean        |     5803107 | ['alternative r&b', 'hip hop', 'lgbtq+ hip hop', 'neo soul', 'pop']                                                                                               |           86 | spotify:artist:2h93pZq0e7k5yf4dywlkpM |
+|  2 | Chance the Rapper  |     4832323 | ['chicago rap', 'conscious hip hop', 'hip hop', 'pop rap', 'rap']                                                                                                 |           84 | spotify:artist:1anyVhU62p31KFi8MEzkbf |
+|  3 | KIDS SEE GHOSTS    |      526794 | ['hip hop', 'rap', 'underground hip hop']                                                                                                                         |           68 | spotify:artist:2hPgGN4uhvXAxiXQBIXOmE |
+|  4 | Daniel Caesar      |     1972912 | ['canadian contemporary r&b', 'pop']                                                                                                                              |           80 | spotify:artist:20wkVLutqVOYrc0kxFs7rA |
+|  5 | Odd Future         |      673015 | ['hip hop', 'rap']                                                                                                                                                |           56 | spotify:artist:5xpkLC1MxiPRiIJUDEzuVm |
+|  6 | BROCKHAMPTON       |     1438742 | ['boy band', 'hip hop', 'pop', 'rap']                                                                                                                             |           81 | spotify:artist:1Bl6wpkWCQ4KVgnASpvzzA |
+|  7 | Brent Faiyaz       |      682256 | ['alternative r&b', 'dmv rap', 'rap']                                                                                                                             |           78 | spotify:artist:3tlXnStJ1fFhdScmQeLpuG |
+|  8 | dvsn               |      760351 | ['alternative r&b', 'canadian contemporary r&b', 'deep pop r&b', 'pop', 'r&b', 'trap soul', 'urban contemporary']                                                 |           72 | spotify:artist:7e1ICztHM2Sc4JNLxeMXYl |
+|  9 | Earl Sweatshirt    |     1193800 | ['alternative hip hop', 'escape room', 'experimental hip hop', 'hip hop', 'rap', 'underground hip hop']                                                           |           71 | spotify:artist:3A5tHz1SfngyOZM2gItYKu |
+| 10 | Sampha             |      422793 | ['alternative r&b', 'indie r&b', 'indie soul']                                                                                                                    |           65 | spotify:artist:2WoVwexZuODvclzULjPQtm |
+| 11 | Tyler, The Creator |     4452752 | ['hip hop', 'rap']                                                                                                                                                |           86 | spotify:artist:4V8LLVI7PbaPR0K2TGSxFF |
+| 12 | Solange            |     1075381 | ['afrofuturism', 'alternative r&b', 'art pop', 'dance pop', 'electropop', 'escape room', 'hip pop', 'indie soul', 'neo soul', 'pop', 'r&b', 'urban contemporary'] |           69 | spotify:artist:2auiVi8sUZo17dLy1HwrTU |
+| 13 | Jhené Aiko         |     3243980 | ['alternative r&b', 'pop', 'r&b', 'urban contemporary']                                                                                                           |           84 | spotify:artist:5ZS223C6JyBfXasXxrRqOk |
+| 14 | Kevin Abstract     |      449341 | ['hip hop', 'lgbtq+ hip hop', 'rap']                                                                                                                              |           68 | spotify:artist:07EcmJpfAday8xGkslfanE |
+| 15 | Kanye West         |    11748468 | ['chicago rap', 'rap']                                                                                                                                            |           91 | spotify:artist:5K4W6rqBFWDnAN6FQUkS6x |
+| 16 | Majid Jordan       |      504182 | ['alternative r&b', 'pop', 'trap soul']                                                                                                                           |           70 | spotify:artist:4HzKw8XcD0piJmDrrPRCYk |
+| 17 | Childish Gambino   |     6375090 | ['atl hip hop', 'hip hop', 'pop rap', 'rap']                                                                                                                      |           84 | spotify:artist:73sIBHcqh3Z3NyqHKZ7FOL |
+| 18 | The Internet       |      790311 | ['alternative r&b', 'escape room', 'indie soul', 'lgbtq+ hip hop']                                                                                                |           66 | spotify:artist:7GN9PivdemQRKjDt4z5Zv8 |
+| 19 | Kali Uchis         |      954914 | ['art pop', 'colombian pop', 'pop']                                                                                                                               |           79 | spotify:artist:1U1el3k54VvEUzo3ybLPlM |
+| 20 | Syd                |      311888 | ['alternative r&b', 'escape room', 'indie r&b', 'lgbtq+ hip hop']                                                                                                 |           68 | spotify:artist:3jk39CGeaaSO3FPKNx1RUx |
 
 
 ## Authors
