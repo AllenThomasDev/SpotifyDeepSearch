@@ -7,7 +7,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You will need to install Spotipy package for Python which can be found [here](https://spotipy.readthedocs.io/en/2.12.0/#installation)
+You will need to install **Spotipy** package for Python which can be found **[here](https://spotipy.readthedocs.io/en/2.12.0/#installation)** to make use of Spotify's API. Future builds will remove this dependency on Spotipy.
+
+You will also need **Pandas** as artist data are stored in pandas.DataFrames and are then saved as .csv files.
 
 ```
 Give examples
