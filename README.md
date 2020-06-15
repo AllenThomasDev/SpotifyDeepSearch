@@ -37,6 +37,31 @@ width - This is the recursive height of the search.
 
 ### Examples
 
+addEdge(,20,0) will return 2 dataframes. One with the 'connections' and one with the details for every artist.
+
+|----|-------------|--------------------|
+|  0 | Frank Ocean | Tyler, The Creator |
+|  1 | Frank Ocean | Earl Sweatshirt    |
+|  2 | Frank Ocean | Kevin Abstract     |
+|  3 | Frank Ocean | BROCKHAMPTON       |
+|  4 | Frank Ocean | SZA                |
+|  5 | Frank Ocean | The Internet       |
+|  6 | Frank Ocean | Chance the Rapper  |
+|  7 | Frank Ocean | Kanye West         |
+|  8 | Frank Ocean | Brent Faiyaz       |
+|  9 | Frank Ocean | Solange            |
+| 10 | Frank Ocean | Syd                |
+| 11 | Frank Ocean | Childish Gambino   |
+| 12 | Frank Ocean | Sampha             |
+| 13 | Frank Ocean | Odd Future         |
+| 14 | Frank Ocean | Jhené Aiko         |
+| 15 | Frank Ocean | Majid Jordan       |
+| 16 | Frank Ocean | Daniel Caesar      |
+| 17 | Frank Ocean | KIDS SEE GHOSTS    |
+| 18 | Frank Ocean | dvsn               |
+| 19 | Frank Ocean | Kali Uchis         |
+
+
 
 ## Authors
 
