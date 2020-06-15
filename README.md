@@ -22,11 +22,22 @@ pip install -r requirements.txt
 ```
 ### What it does-
 
-Explain what these tests test and why
+Spotify's API provides an [endpoint](https://developer.spotify.com/documentation/web-api/reference/artists/get-related-artists/) which returns a collection of upto 20 artists similar to a given artist.
 
+DeepSearch recursively searches for related artists according to the given depth and width.
+addEdge() takes 3 parameters-
+```python
+addedge(artist_id,depth,width):
 ```
-Give an example
-```
+artist_id - The [Spotify ID](https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids) for the artist.
+
+depth - The number of related artists can be limited by passing a depth value. The maximum value is the default value - 20.
+
+width - This is the recursive height of the search.
+
+### Examples
+
+
 ## Authors
 
 * **Allen Thomas** - [AllenThomasDev](https://github.com/AllenThomasDev)
