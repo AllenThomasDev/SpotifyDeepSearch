@@ -1,7 +1,13 @@
-<p align = 'left'>
-<img src="https://user-images.githubusercontent.com/55048030/84733162-1a1bdc00-afbb-11ea-9bd4-b79116bc3305.png" width="50" title="Spotify">
- <h1>DeepSearch</h1 margin=0px>
-</p>
+<table>
+    <tr>
+        <td><img src="https://user-images.githubusercontent.com/55048030/84733162-1a1bdc00-afbb-11ea-9bd4-b79116bc3305.png" width=40px ></td>
+     <td><h1>DeepSearch</h1></td>
+    </tr>
+</table>
+<p style="width: 500px;">
+<img style="float: left;" />
+</p> 
+
 Add-on created on top of Spotipy to search similar artists. Recursive depth and width can also be specified to give a larger network of artists.
 
 ## Getting Started
