@@ -1,4 +1,7 @@
-# SpotifyDeepSearch
+<p>
+  <h1>SpotifyDeepSearch  <img src="https://developer.spotify.com/assets/branding-guidelines/icon1@2x.png" width="50" title="hover text"></h1>
+ 
+</p>
 Add-on created on top of Spotipy to search similar artists. Recursive depth and width can also be specified to give a larger network of artists.
 
 ## Getting Started
